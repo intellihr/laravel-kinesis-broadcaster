@@ -1,0 +1,13 @@
+{
+  "name": "intellihr/laravel-kinesis-broadcaster",
+  "autoload": {
+    "psr-4": {
+      "IntelliHR\\Broadcasting\\": "src"
+    }
+  },
+  "require": {
+    "aws/aws-sdk-php": "~3.0",
+    "illuminate/contracts": "5.1.*",
+    "illuminate/support": "5.1.*"
+  }
+}
